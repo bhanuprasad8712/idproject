@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+body {
+   height: 100vh;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+.image{
+    display: flex;
+    position: relative;
+    height:150px;
+    width:150px;
+    margin-bottom:10px ;
+}
+.image .profile-photo{
+    display:flex;
+    align-items:center;
+    object-fit:cover;
+    height:100%;
+    width:100%;
+    border-radius:50%;
+    border-color: rgb(18, 201, 233);
+    border-color: aquamarine;
+}
+.Profile-card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(193, 226, 226);
+    max-width:350px;
+    width:100%;
+    border-radius:24px;
+}
+.Profile-card .text-data{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+.Profile-card .image{
+    border-color: rgb(1, 14, 10);
+}
+.text-data .name{
+    font: size 22px;
+    font-weight:500px;
+}
+.text-data .job{
+    font-size:12px ;
+}
+.Profile-card .media-tags{
+   display:flex;
+   align-items:center;
+   margin-top: 15px;
+}
+.media-tags .link{
+    display: flex;
+    font-size:18px;
+  background-color: blue;
+  text-decoration: none;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin:0 8px;
+  height:34px;
+  width:34px;
+  background-color: azure;
+}
+.media-tags .button{
+display:flex;
+flex-direction:column;
+padding: 2px;
+margin:10px;
+}
